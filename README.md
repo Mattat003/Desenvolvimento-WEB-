@@ -1,13 +1,13 @@
 Navegação no Git Bash
-pwd	Mostra em qual pasta você está
-ls	Lista os arquivos e pastas do local atual
-ls -la	Lista arquivos, inclusive ocultos, com detalhes
-cd nome-da-pasta	Entra em uma pasta
-cd ..	Volta uma pasta
-cd ~	Vai para sua pasta de usuário
-cd /	Vai para a raiz do Git Bash
-clear	Limpa o terminal
-history	Mostra os comandos usados anteriormente
+pwd	- Mostra em qual pasta você está
+ls - Lista os arquivos e pastas do local atual
+ls -la - Lista arquivos, inclusive ocultos, com detalhes
+cd nome-da-pasta - Entra em uma pasta
+cd .. - Volta uma pasta
+cd ~ - Vai para sua pasta de usuário
+cd / - Vai para a raiz do Git Bash
+clear - Limpa o terminal
+history - Mostra os comandos usados anteriormente
 ==================================================================================
 
 Criar, mover, copiar e excluir
