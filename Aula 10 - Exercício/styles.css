@@ -1,6 +1,8 @@
 body{
     background-color: rgb(255, 255, 255);
     font-family: 'Times New Roman', Times, serif;
+    padding: 20px;
+    margin: 20px;
 }
 
 h1{
@@ -15,6 +17,7 @@ p::first-letter{
 
 a:hover{
     text-decoration: none;
+    opacity: 0.5;
 }
 
 h1, h2, h3, h4, h5, h6{
@@ -31,4 +34,25 @@ img{
     margin: auto;
     max-width: 150px;
     margin-top: 50px;
+}
+
+.banner{
+    height: 300px;
+    width: 300px;
+    background-image: url("https://media.istockphoto.com/id/649711648/vector/blue-polygon-background-abstract-background-vector.jpg?s=170667a&w=0&k=20&c=ZLiyRb8j0_x6RSNgwBjTIpSo-f4XuYT1soHdew_h6zs=");
+    background-repeat: no-repeat;
+}
+
+.hide{
+    display: none;
+}
+
+.nav{
+    position: sticky;
+    top: 0;
+    z-index: 3;
+}
+
+.products{
+    flex-direction: row;
 }
