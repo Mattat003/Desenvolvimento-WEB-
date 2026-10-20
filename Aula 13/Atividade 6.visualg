@@ -1,0 +1,18 @@
+algoritmo "Atividade 6"
+
+var
+   idade: inteiro
+   maioridadecivil: inteiro
+   maioridadepenal: inteiro
+
+inicio
+   idade <- 18
+   maioridadecivil <- 21
+   maioridadepenal <- 18
+
+   escreval("É maior das duas idades? ", idade >= maioridadecivil E idade >= maioridadepenal)
+  escreval("É maior de alguma idade? ", idade >= maioridadecivil OU idade >= maioridadepenal)
+  escreval("É menor de idade para ambas? ", NAO(idade <= maioridadecivil E idade <= maioridadepenal))
+
+
+fimalgoritmo
