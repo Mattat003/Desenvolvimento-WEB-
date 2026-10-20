@@ -1,0 +1,17 @@
+algoritmo "Atividade 7"
+
+var
+   texto: caractere
+
+inicio
+   texto <- "Matheus"
+
+   escreval("Texto original: ", texto)
+   escreval("Cópia de parte do texto: ", copia(texto, 1, 3))
+   escreval("Quantidade de caracteres: ", compr(texto))
+   escreval("Nome em maiusculas: ", maiusc(texto))
+   escreval("Nome em minusculas: ", minusc(texto))
+   escreval("Tres primeiros caracteres: ", texto)
+   escreval("Posicao de 'th': ", pos("th", texto))
+
+fimalgoritmo
